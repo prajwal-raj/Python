@@ -10,7 +10,7 @@ def test_collatz():
         result = collatz_sequence.collatz(result)
         results.append(result)
 
-    sequence_values = (10, 5, 16, 8, 4, 2, 1)
+    sequence_values = (10, 1, 16, 4, 8, 2, 5)
     for element in results:
         assert element in sequence_values
     for element in sequence_values:
