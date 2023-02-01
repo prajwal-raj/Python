@@ -1,6 +1,6 @@
 from strong_password_detector import strong_pw_detector
 
-invalid_pws = ['12345678', 'password123', 'PASSWORD1a', 'Ab1!', 'PASSWORD1@']
+invalid_pws = ['12345678', 'password123', 'PASSWORD1a', 'Ab1!', 'PASSWORD1@', 'qwert', '123']
 valid_pws = ['Password1!', 'xY@5bapt', 'saMple@#1', 'Short12@']
 
 
